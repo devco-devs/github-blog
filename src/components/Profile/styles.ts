@@ -4,7 +4,6 @@ export const ProfileContainer = styled.div`
 margin: 0 auto;
 margin-top: -6rem;
 
-max-width: 864px;
 padding: 32px;
 display: flex;
 gap: 32px;

@@ -1,14 +1,10 @@
 import styled from "styled-components";
 
-export const PageContainer = styled.div`
-padding: 0 20px;
+export const LayoutContainer = styled.div`
+max-width: 74rem;
+margin: 0 auto;
+padding: 0 1.25rem;
+
 display: flex;
 flex-direction: column;
-
-justify-content: center;
-`
-
-export const PageContent = styled.div`
-margin: 0 auto;
-max-width: 1180px;
 `

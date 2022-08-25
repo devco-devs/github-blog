@@ -1,17 +1,11 @@
-import { ReactNode } from "react"
-import { PageContainer, PageContent } from "./styles"
+import { Outlet } from 'react-router-dom'
 
-interface DefaultLayoutProps {
-  children: ReactNode
-}
+import { LayoutContainer } from "./styles"
 
-export function DefaultLayout({children}: DefaultLayoutProps) {
+export function DefaultLayout() {
   return(
-    <PageContainer>
-      <PageContent>
-      {children}
-      </PageContent>
-    </PageContainer>
-      
+    <LayoutContainer>
+      <Outlet />
+    </LayoutContainer>
   )
 }
