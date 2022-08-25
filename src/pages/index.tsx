@@ -1,10 +1,12 @@
+import { Posts } from "../components/Posts";
 import { Profile } from "../components/Profile";
-import { PageContainer } from "../layout/PageContainer";
+import { DefaultLayout } from "../layout/DefaultLayout";
 
 export function Home() {
   return(
-    <PageContainer>
+    <DefaultLayout>
       <Profile />
-    </PageContainer>
+      <Posts />
+    </DefaultLayout>
   )
 }
