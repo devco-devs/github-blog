@@ -1,9 +1,10 @@
 import { Profile } from "../components/Profile";
+import { PageContainer } from "../layout/PageContainer";
 
 export function Home() {
   return(
-    <div>
+    <PageContainer>
       <Profile />
-    </div>
+    </PageContainer>
   )
 }
