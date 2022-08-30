@@ -10,7 +10,8 @@ export const theme = {
     post: "#112131",
     profile: "#0B1B2B",
     background: "#071422",
-    input: "#040F1A"
+    input: "#040F1A",
+    markdown: "#D5DCE3",
   },
   font: {
     family: "Nunito",

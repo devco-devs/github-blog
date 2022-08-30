@@ -10,7 +10,7 @@ export function Link({href, children}: LinkProps) {
   return(
     <LinkContainer>
     <Anchor href={href}>{children}</Anchor>
-    <img src="src/assets/icons/arrow-up-square.svg" alt="Square with arrow pointing up" />
+    <img src="/src/assets/icons/arrow-up-square.svg" alt="Square with arrow pointing up" />
     </LinkContainer>
   )
 }
